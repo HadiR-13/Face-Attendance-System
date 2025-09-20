@@ -56,7 +56,7 @@ def update_attendance(student: dict, frame, face_coords):
         writer.writerow([student['id'], student['name'], student['last_attendance_time'], "Present"])
 
     (x, y, w, h) = face_coords
-    margin = 40
+    margin = 200
     x1, y1 = max(0, x - margin), max(0, y - margin)
     x2, y2 = min(frame.shape[1], x + w + margin), min(frame.shape[0], y + h + margin)
     face_img = frame[y1:y2, x1:x2]
