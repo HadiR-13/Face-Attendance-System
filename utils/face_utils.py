@@ -1,15 +1,42 @@
-import cv2
-import numpy as np
-import os
+import cv2, os, numpy as np
 
 try:
-    from config import MODEL_PATH, IMAGES_DIR
+    from config import MODEL_PATH, IMAGES_DIR, LOGS_DIR
     from logger import log_message
 except ImportError:
-    from utils.config import MODEL_PATH, IMAGES_DIR
+    from utils.config import MODEL_PATH, IMAGES_DIR, LOGS_DIR
     from utils.logger import log_message
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+recognizer = cv2.face.LBPHFaceRecognizer_create(radius=2, neighbors=8, grid_x=8, grid_y=8)
+
+def save_face_snapshot(student: dict, frame, face_coords, timestamp):
+    (x, y, w, h) = face_coords
+    margin = 200
+    x1, y1 = max(0, x - margin), max(0, y - margin)
+    x2, y2 = min(frame.shape[1], x + w + margin), min(frame.shape[0], y + h + margin)
+    face_img = frame[y1:y2, x1:x2]
+
+    filename = f"{student['id']}-{timestamp.strftime('%Y%m%d%H%M%S')}.png"
+    filepath = os.path.join(LOGS_DIR, filename)
+    cv2.imwrite(filepath, face_img)
+
+    log_message(f"📸 Snapshot saved for {student['nama']}: {filepath}")
+
+def predict_student(gray_face, students, threshold=70):
+    recognizer.read(MODEL_PATH)
+    face_resized = preprocess_face(gray_face)
+
+    if face_resized is None:
+        return None, None
+
+    id_pred, conf = recognizer.predict(face_resized)
+
+    if conf < threshold:
+        student = students.get(str(id_pred))
+        return student, conf
+    else:
+        return None, conf
 
 def preprocess_face(img):
     faces = face_cascade.detectMultiScale(img, scaleFactor=1.2, minNeighbors=5)
@@ -44,16 +71,13 @@ def train_model(log_box=None):
             labels.append(int(student_id))
 
     if faces:
-        recognizer = cv2.face.LBPHFaceRecognizer_create(
-            radius=2, neighbors=8, grid_x=8, grid_y=8
-        )
         recognizer.train(faces, np.array(labels))
         recognizer.save(MODEL_PATH)
         log_message(f"✅ Model trained with {len(faces)} samples and {len(set(labels))} students", log_box)
     else:
         log_message("❌ No valid images found, training aborted", log_box)
 
-def save_faces(student_id, photo_paths, folder, log_box):
+def save_faces(student_id, photo_paths, folder, log_box=None):
     os.makedirs(folder, exist_ok=True)
     existing = len([f for f in os.listdir(folder) if f.endswith((".jpg", ".png", ".jpeg"))])
     count = 0

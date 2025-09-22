@@ -7,7 +7,6 @@ except ImportError:
     from utils.logger import log_message
 
 log_box = None
-
 def set_log_box(widget):
     global log_box
     log_box = widget

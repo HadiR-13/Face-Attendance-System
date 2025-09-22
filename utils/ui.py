@@ -139,6 +139,7 @@ def delete_student(tree, log_box):
     save_data(df)
     log_message(f"🗑️ Deleted student {student_id}", log_box)
 
+
 def get_api_key():
     api_key = load_api_key()
     if api_key:
@@ -166,13 +167,12 @@ def get_api_key():
 def start_ui():
     global df, attendance_df
 
-
     root = tk.Tk()
     root.title("Student Data Manager with Face Recognition [DEBUG MODE]")
     root.geometry("1200x700")
     root.resizable(False, False)
     root.configure(bg="#f5f6fa")
-    api_key = get_api_key()
+    # api_key = get_api_key()
 
     def build_menus():
         menubar = tk.Menu(root)
@@ -348,7 +348,6 @@ def start_ui():
         except Exception as e:
             log_message(f"❌ Failed to load image {filename}: {e}", log_box)
 
-
     def on_tab_change(event):
         tab = notebook.tab(notebook.select(), "text")
         log_message(f"📑 Switched to {tab} tab", log_box)
@@ -375,7 +374,7 @@ def start_ui():
     refresh_table(tree, df)
     refresh_history(history_tree, attendance_df)
     log_message("🚀 Program started", log_box)
-    log_message(f"🔑 API Key received: {api_key}", log_box)
+    # log_message(f"🔑 API Key received: {api_key}", log_box)
     set_log_box(log_box)
 
     root.protocol("WM_DELETE_WINDOW", lambda: (log_message("🛑 Program closed", log_box), root.destroy()))
