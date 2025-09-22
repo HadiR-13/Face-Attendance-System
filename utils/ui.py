@@ -1,17 +1,17 @@
 import tkinter as tk
-from tkinter import ttk, filedialog, messagebox
-import os
+from tkinter import ttk, filedialog, messagebox, simpledialog
+import os, sys
 from PIL import Image, ImageTk
 
 try:
     from config import LOG_PATH, IMAGES_DIR, LOGS_DIR
-    from data_manager import load_data, load_attendance, save_data, add_student_row
+    from data_manager import load_data, load_attendance, save_data, add_student_row, save_api_key, load_api_key
     from face_utils import train_model, save_faces
     from logger import log_message
     from exceptions import set_log_box
 except ImportError:
     from utils.config import LOG_PATH, IMAGES_DIR, LOGS_DIR
-    from utils.data_manager import load_data, load_attendance, save_data, add_student_row
+    from utils.data_manager import load_data, load_attendance, save_data, add_student_row, save_api_key, load_api_key
     from utils.face_utils import train_model, save_faces
     from utils.logger import log_message
     from utils.exceptions import set_log_box
@@ -90,10 +90,10 @@ def edit_student(tree, entries, log_box):
     idx = df.index[df["id"] == student_id][0]
 
     type_map = {
-        "Starting Year": int,
-        "Total Attendance": int,
-        "Year": int,
-        "Last Attendance Time": str,
+        "Nomor Telepon": int,
+        "Total Kehadiran": int,
+        "Email": str,
+        "Waktu Kehadiran": str,
     }
 
     for col, entry in entries.items():
@@ -139,15 +139,40 @@ def delete_student(tree, log_box):
     save_data(df)
     log_message(f"🗑️ Deleted student {student_id}", log_box)
 
+def get_api_key():
+    api_key = load_api_key()
+    if api_key:
+        return api_key
+
+    root = tk.Tk()
+    root.withdraw()
+    api_input = simpledialog.askstring(
+        "API Key Required",
+        "Enter your API key or full URL:",
+        parent=root
+    )
+    root.resizable(False, False)
+
+    if not api_input:
+        messagebox.showerror("Error", "API key is required to continue.")
+        sys.exit(1)
+    if api_input.startswith("http"):
+        api_input = api_input.rstrip("/").split("/")[-1]
+
+    save_api_key(api_input)
+    root.destroy()
+    return api_input
 
 def start_ui():
     global df, attendance_df
+
 
     root = tk.Tk()
     root.title("Student Data Manager with Face Recognition [DEBUG MODE]")
     root.geometry("1200x700")
     root.resizable(False, False)
     root.configure(bg="#f5f6fa")
+    api_key = get_api_key()
 
     def build_menus():
         menubar = tk.Menu(root)
@@ -165,7 +190,6 @@ def start_ui():
         menubar.add_cascade(label="Logs", menu=log_menu)
 
         root.config(menu=menubar)
-
     build_menus()
 
     form_frame = tk.LabelFrame(
@@ -174,7 +198,7 @@ def start_ui():
     )
     form_frame.place(x=20, y=20, width=400, height=350)
 
-    labels = ["Name", "Major", "Starting Year", "Total Attendance", "Year", "Last Attendance Time"]
+    labels = ["Nama", "Kelas", "Total Kehadiran", "Email", "Nomor Telepon", "Waktu Kehadiran"]
     entries, label_widgets = {}, {}
     for i, text in enumerate(labels):
         lbl = tk.Label(form_frame, text=text + ":", anchor="w", bg="#f5f6fa", font=("Arial", 10))
@@ -183,6 +207,12 @@ def start_ui():
         e.grid(row=i, column=1, pady=5, padx=10, sticky="w")
         entries[text] = e
         label_widgets[text] = lbl
+
+    clear_btn = tk.Button(
+        form_frame, text="✖ Clear Form", command=lambda: clear_entries(entries), 
+        bg="#f77862", fg="white",font=("Arial", 10, "bold"), relief="flat", padx=10, pady=5
+    )
+    clear_btn.grid(row=7, column=1, padx=100, pady=8)
 
     image_label = tk.Label(form_frame, bg="#dcdde1")
     image_label.grid(row=0, column=2, rowspan=8, padx=10, pady=5)
@@ -201,7 +231,8 @@ def start_ui():
                      bg="#f39c12"),
         "delete": dict(text="🗑 Delete", cmd=lambda: delete_student(tree, log_box),
                        bg="#e74c3c"),
-        "train": dict(text="🧠 Train Model", cmd=lambda: train_model(log_box), bg="#27ae60"),
+        "train": dict(text="🧠 Train Model", cmd=lambda: train_model(log_box), 
+                      bg="#27ae60"),
     }
 
     for i, (key, spec) in enumerate(buttons.items()):
@@ -256,7 +287,7 @@ def start_ui():
     student_tab = tk.Frame(notebook, bg="#f5f6fa")
     notebook.add(student_tab, text="📋 Students")
 
-    cols = ["ID", "Name", "Major", "Starting Year", "Total Attendance", "Year", "Last Attendance Time"]
+    cols = ["ID", "Nama", "Kelas", "Total Kehadiran", "Email", "Nomor Telepon", "Waktu Kehadiran"]
     tree = ttk.Treeview(student_tab, columns=cols, show="headings", height=12)
     for col in cols:
         tree.heading(col, text=col)
@@ -284,6 +315,7 @@ def start_ui():
             lbl.grid()
         for entry in entries.values():
             entry.grid()
+        clear_btn.grid()
 
     def on_history_select(event):
         selected = history_tree.selection()
@@ -311,6 +343,7 @@ def start_ui():
                 widget.grid_remove()
             for widget in label_widgets.values():
                 widget.grid_remove()
+            clear_btn.grid_remove()
 
         except Exception as e:
             log_message(f"❌ Failed to load image {filename}: {e}", log_box)
@@ -342,6 +375,7 @@ def start_ui():
     refresh_table(tree, df)
     refresh_history(history_tree, attendance_df)
     log_message("🚀 Program started", log_box)
+    log_message(f"🔑 API Key received: {api_key}", log_box)
     set_log_box(log_box)
 
     root.protocol("WM_DELETE_WINDOW", lambda: (log_message("🛑 Program closed", log_box), root.destroy()))

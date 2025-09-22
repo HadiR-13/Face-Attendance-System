@@ -1,0 +1,831 @@
+[2025-09-20 00:02:14] 🚀 Program started
+[2025-09-20 00:02:21] 🔍 Found 1 result(s) for 'elon'
+[2025-09-20 00:02:31] ✅ Data saved
+[2025-09-20 00:02:31] ✏️ Edited student 100002
+[2025-09-20 00:02:32] 🔄 Collecting faces for training...
+[2025-09-20 00:02:33] ⚠️ No detectable face in 100004_1.jpg
+[2025-09-20 00:02:33] ✅ Model trained with 6 samples and 5 students
+[2025-09-20 00:02:35] 🛑 Program closed
+[2025-09-20 21:45:38] 🚀 Program started
+[2025-09-20 21:46:09] ✅ Data saved
+[2025-09-20 21:46:45] 🛑 Program closed
+[2025-09-20 21:51:02] 🚀 Program started
+[2025-09-20 21:51:12] 🛑 Program closed
+[2025-09-20 21:52:43] 🚀 Program started
+[2025-09-20 21:52:51] 🛑 Program closed
+[2025-09-20 21:55:46] 🚀 Program started
+[2025-09-20 21:56:22] 🛑 Program closed
+[2025-09-20 21:58:40] 🚀 Program started
+[2025-09-20 21:58:54] 🛑 Program closed
+[2025-09-20 21:59:28] 🚀 Program started
+[2025-09-20 22:00:46] 🔍 Found 1 result(s) for 'elon'
+[2025-09-20 22:08:52] 🛑 Program closed
+[2025-09-20 22:08:55] ❌ ERROR: Traceback (most recent call last):
+  File "D:\My_Folder\Latihan\Python\RPL\encode_data.py", line 440, in <module>
+    main()
+  File "D:\My_Folder\Latihan\Python\RPL\encode_data.py", line 370, in main
+    tk.Button(search_frame, text="🔍 Search", command=global_search,
+UnboundLocalError: local variable 'global_search' referenced before assignment
+
+[2025-09-20 22:09:21] 🚀 Program started
+[2025-09-20 22:09:21] 📑 Switched to 📋 Students tab
+[2025-09-20 22:09:26] 🔍 Found 1 result(s) for 'elon'
+[2025-09-20 22:09:28] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:09:30] 🔍 Found 14 result(s) in history for 'elon'
+[2025-09-20 22:09:37] 🔍 Found 2 result(s) in history for 'timothy'
+[2025-09-20 22:09:43] 🔍 Found 4 result(s) in history for 'sultan'
+[2025-09-20 22:09:49] 📑 Switched to 📋 Students tab
+[2025-09-20 22:09:52] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:09:55] 📑 Switched to 📋 Students tab
+[2025-09-20 22:09:58] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:10:00] 📑 Switched to 📋 Students tab
+[2025-09-20 22:10:09] 🛑 Program closed
+[2025-09-20 22:10:39] 🚀 Program started
+[2025-09-20 22:10:39] 📑 Switched to 📋 Students tab
+[2025-09-20 22:10:41] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:10:54] 📑 Switched to 📋 Students tab
+[2025-09-20 22:10:56] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:12:47] 🛑 Program closed
+[2025-09-20 22:15:05] 🚀 Program started
+[2025-09-20 22:15:05] 📑 Switched to 📋 Students tab
+[2025-09-20 22:15:07] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:15:08] ⚠️ Image not found: Images\100001-20250918 09:10:18Present.png
+[2025-09-20 22:15:11] 🛑 Program closed
+[2025-09-20 22:16:40] 🚀 Program started
+[2025-09-20 22:16:40] 📑 Switched to 📋 Students tab
+[2025-09-20 22:16:41] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:16:42] ⚠️ Image not found: Logs\100002-20250918 09:10:19Present.png
+[2025-09-20 22:16:45] ⚠️ Image not found: Logs\100000-20250919 09:48:54Present.png
+[2025-09-20 22:17:21] ⚠️ Image not found: Logs\100000-20250919 09:50:30Present.png
+[2025-09-20 22:18:21] 🛑 Program closed
+[2025-09-20 22:18:25] 🚀 Program started
+[2025-09-20 22:18:25] 📑 Switched to 📋 Students tab
+[2025-09-20 22:18:27] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:18:28] ⚠️ Image not found: Logs\100001-20250919094845.png
+[2025-09-20 22:18:54] ⚠️ Image not found: Logs\100002-20250920000018.png
+[2025-09-20 22:20:06] 🚀 Program started
+[2025-09-20 22:20:06] 📑 Switched to 📋 Students tab
+[2025-09-20 22:20:08] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:20:11] ⚠️ Image not found: DataLogs\100002-20250920000018.png
+[2025-09-20 22:20:24] 🛑 Program closed
+[2025-09-20 22:20:29] 🚀 Program started
+[2025-09-20 22:20:29] 📑 Switched to 📋 Students tab
+[2025-09-20 22:20:31] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:20:34] 🖼️ Showing image: 100002-20250920000018.png
+[2025-09-20 22:25:40] 🛑 Program closed
+[2025-09-20 22:25:44] 🚀 Program started
+[2025-09-20 22:25:44] 📑 Switched to 📋 Students tab
+[2025-09-20 22:25:45] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:25:48] ❌ Failed to load image 100002-20250919232455.png: [Errno 2] No such file or directory: 'Images\\100002-20250919232455.png'
+[2025-09-20 22:26:14] 🛑 Program closed
+[2025-09-20 22:26:17] 🚀 Program started
+[2025-09-20 22:26:17] 📑 Switched to 📋 Students tab
+[2025-09-20 22:26:19] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:26:28] ❌ Failed to load image 100002-20250916211940.png: [Errno 2] No such file or directory: 'Data\\Logs\\100002-20250916211940.png'
+[2025-09-20 22:26:29] ❌ Failed to load image 100002-20250919094842.png: [Errno 2] No such file or directory: 'Data\\Logs\\100002-20250919094842.png'
+[2025-09-20 22:26:31] ❌ Failed to load image 100000-20250919095030.png: [Errno 2] No such file or directory: 'Data\\Logs\\100000-20250919095030.png'
+[2025-09-20 22:26:32] ❌ Failed to load image 100002-20250919103931.png: [Errno 2] No such file or directory: 'Data\\Logs\\100002-20250919103931.png'
+[2025-09-20 22:26:33] ❌ Failed to load image 100002-20250919184711.png: [Errno 2] No such file or directory: 'Data\\Logs\\100002-20250919184711.png'
+[2025-09-20 22:26:49] 📑 Switched to 📋 Students tab
+[2025-09-20 22:26:58] 🛑 Program closed
+[2025-09-20 22:28:28] 🚀 Program started
+[2025-09-20 22:28:28] 📑 Switched to 📋 Students tab
+[2025-09-20 22:28:31] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:28:34] 📑 Switched to 📋 Students tab
+[2025-09-20 22:31:30] 🛑 Program closed
+[2025-09-20 22:31:34] 🚀 Program started
+[2025-09-20 22:31:34] 📑 Switched to 📋 Students tab
+[2025-09-20 22:31:37] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:31:41] 📑 Switched to 📋 Students tab
+[2025-09-20 22:31:43] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:31:47] 📑 Switched to 📋 Students tab
+[2025-09-20 22:31:52] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:32:04] 📑 Switched to 📋 Students tab
+[2025-09-20 22:32:08] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:32:15] 🛑 Program closed
+[2025-09-20 22:35:38] 🚀 Program started
+[2025-09-20 22:35:38] 📑 Switched to 📋 Students tab
+[2025-09-20 22:35:40] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:35:42] ❌ Failed to load image 100001-20250919094845.png: [Errno 2] No such file or directory: 'Data\\Logs\\100001-20250919094845.png'
+[2025-09-20 22:35:44] ❌ Failed to load image 100000-20250919103940.png: [Errno 2] No such file or directory: 'Data\\Logs\\100000-20250919103940.png'
+[2025-09-20 22:36:12] 🛑 Program closed
+[2025-09-20 22:36:15] 🚀 Program started
+[2025-09-20 22:36:15] 📑 Switched to 📋 Students tab
+[2025-09-20 22:36:17] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:36:22] ❌ Failed to load image 100001-20250919094845.png: [Errno 2] No such file or directory: 'Data\\Logs\\100001-20250919094845.png'
+[2025-09-20 22:36:23] ❌ Failed to load image 100000-20250919095030.png: [Errno 2] No such file or directory: 'Data\\Logs\\100000-20250919095030.png'
+[2025-09-20 22:36:26] ❌ Failed to load image 100002-20250919184711.png: [Errno 2] No such file or directory: 'Data\\Logs\\100002-20250919184711.png'
+[2025-09-20 22:36:32] 🛑 Program closed
+[2025-09-20 22:36:59] 🚀 Program started
+[2025-09-20 22:36:59] 📑 Switched to 📋 Students tab
+[2025-09-20 22:37:00] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:37:08] 🛑 Program closed
+[2025-09-20 22:37:25] 🚀 Program started
+[2025-09-20 22:37:25] 📑 Switched to 📋 Students tab
+[2025-09-20 22:37:26] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:37:32] 🛑 Program closed
+[2025-09-20 22:37:48] 🚀 Program started
+[2025-09-20 22:37:48] 📑 Switched to 📋 Students tab
+[2025-09-20 22:37:51] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:37:59] 📑 Switched to 📋 Students tab
+[2025-09-20 22:38:00] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:38:06] 🛑 Program closed
+[2025-09-20 22:38:16] ❌ ERROR: Traceback (most recent call last):
+  File "D:\My_Folder\Latihan\Python\RPL\encode_data.py", line 495, in <module>
+    main()
+  File "D:\My_Folder\Latihan\Python\RPL\encode_data.py", line 333, in main
+    image_label.grid(row=0, column=2, rowspan=0, padx=10, pady=5)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\tkinter\__init__.py", line 2522, in grid_configure
+    self.tk.call(
+_tkinter.TclError: bad rowspan value "0": must be a positive integer
+
+[2025-09-20 22:38:25] 🚀 Program started
+[2025-09-20 22:38:25] 📑 Switched to 📋 Students tab
+[2025-09-20 22:38:27] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:38:34] 🛑 Program closed
+[2025-09-20 22:38:55] 🚀 Program started
+[2025-09-20 22:38:55] 📑 Switched to 📋 Students tab
+[2025-09-20 22:38:57] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:39:05] ❌ Failed to load image 100001-20250919094845.png: [Errno 2] No such file or directory: 'Data\\Logs\\100001-20250919094845.png'
+[2025-09-20 22:39:06] ❌ Failed to load image 100001-20250919184705.png: [Errno 2] No such file or directory: 'Data\\Logs\\100001-20250919184705.png'
+[2025-09-20 22:39:09] ❌ Failed to load image 100002-20250919184711.png: [Errno 2] No such file or directory: 'Data\\Logs\\100002-20250919184711.png'
+[2025-09-20 22:39:17] 🛑 Program closed
+[2025-09-20 22:39:41] 🚀 Program started
+[2025-09-20 22:39:41] 📑 Switched to 📋 Students tab
+[2025-09-20 22:39:43] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:40:10] 📑 Switched to 📋 Students tab
+[2025-09-20 22:40:11] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:40:16] 📑 Switched to 📋 Students tab
+[2025-09-20 22:42:09] ✅ Data saved
+[2025-09-20 22:42:13] 🔄 Collecting faces for training...
+[2025-09-20 22:42:14] ⚠️ No detectable face in 100004_1.jpg
+[2025-09-20 22:42:14] ✅ Model trained with 6 samples and 5 students
+[2025-09-20 22:45:09] 🚀 Program started
+[2025-09-20 22:45:09] 📑 Switched to 📋 Students tab
+[2025-09-20 22:45:20] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:45:25] 🔍 Found 9 result(s) in history for 'elon'
+[2025-09-20 22:45:34] ✅ Data saved
+[2025-09-20 22:45:34] ✏️ Edited student 100002
+[2025-09-20 22:45:36] 📑 Switched to 📋 Students tab
+[2025-09-20 22:45:41] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:45:46] 🔍 Found 2 result(s) in history for 'timothy'
+[2025-09-20 22:45:50] ✅ Data saved
+[2025-09-20 22:45:50] ✏️ Edited student 100004
+[2025-09-20 22:45:52] 📑 Switched to 📋 Students tab
+[2025-09-20 22:45:53] 🔍 Found 1 result(s) for 'timothy'
+[2025-09-20 22:45:55] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:46:20] 📑 Switched to 📋 Students tab
+[2025-09-20 22:46:47] 🛑 Program closed
+[2025-09-20 22:46:51] 🚀 Program started
+[2025-09-20 22:46:51] 📑 Switched to 📋 Students tab
+[2025-09-20 22:46:55] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:47:08] 🛑 Program closed
+[2025-09-20 22:47:48] 🚀 Program started
+[2025-09-20 22:47:48] 📑 Switched to 📋 Students tab
+[2025-09-20 22:47:53] 🛑 Program closed
+[2025-09-20 22:48:01] 🚀 Program started
+[2025-09-20 22:48:01] 📑 Switched to 📋 Students tab
+[2025-09-20 22:48:05] 🛑 Program closed
+[2025-09-20 22:48:12] 🚀 Program started
+[2025-09-20 22:48:12] 📑 Switched to 📋 Students tab
+[2025-09-20 22:48:32] 🛑 Program closed
+[2025-09-20 22:48:40] 🚀 Program started
+[2025-09-20 22:48:40] 📑 Switched to 📋 Students tab
+[2025-09-20 22:48:55] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:49:02] 📑 Switched to 📋 Students tab
+[2025-09-20 22:49:25] 🛑 Program closed
+[2025-09-20 22:51:37] 🚀 Program started
+[2025-09-20 22:51:37] 📑 Switched to 📋 Students tab
+[2025-09-20 22:51:43] ✅ Data saved
+[2025-09-20 22:51:59] 🛑 Program closed
+[2025-09-20 22:56:44] 🚀 Program started
+[2025-09-20 22:56:44] 📑 Switched to 📋 Students tab
+[2025-09-20 22:56:50] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:57:00] 🛑 Program closed
+[2025-09-20 22:57:38] 🚀 Program started
+[2025-09-20 22:57:38] 📑 Switched to 📋 Students tab
+[2025-09-20 22:57:40] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:58:20] 📑 Switched to 📋 Students tab
+[2025-09-20 22:58:24] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:58:29] 🛑 Program closed
+[2025-09-20 22:58:54] 🚀 Program started
+[2025-09-20 22:58:54] 📑 Switched to 📋 Students tab
+[2025-09-20 22:58:55] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 22:59:19] 📑 Switched to 📋 Students tab
+[2025-09-20 22:59:31] 🛑 Program closed
+[2025-09-20 23:00:54] 🚀 Program started
+[2025-09-20 23:00:55] 📑 Switched to 📋 Students tab
+[2025-09-20 23:00:58] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:01:11] 🛑 Program closed
+[2025-09-20 23:01:51] 🚀 Program started
+[2025-09-20 23:01:51] 📑 Switched to 📋 Students tab
+[2025-09-20 23:01:54] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:02:00] 📑 Switched to 📋 Students tab
+[2025-09-20 23:02:03] 🛑 Program closed
+[2025-09-20 23:03:38] 🚀 Program started
+[2025-09-20 23:03:38] 📑 Switched to 📋 Students tab
+[2025-09-20 23:03:39] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:03:49] 🛑 Program closed
+[2025-09-20 23:08:16] 🚀 Program started
+[2025-09-20 23:08:16] 📑 Switched to 📋 Students tab
+[2025-09-20 23:08:27] 🛑 Program closed
+[2025-09-20 23:09:34] 🚀 Program started
+[2025-09-20 23:09:34] 📑 Switched to 📋 Students tab
+[2025-09-20 23:09:36] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:09:38] 📑 Switched to 📋 Students tab
+[2025-09-20 23:09:41] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:09:43] 📑 Switched to 📋 Students tab
+[2025-09-20 23:09:47] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:09:56] 📑 Switched to 📋 Students tab
+[2025-09-20 23:10:01] 🛑 Program closed
+[2025-09-20 23:10:14] 🚀 Program started
+[2025-09-20 23:10:14] 📑 Switched to 📋 Students tab
+[2025-09-20 23:10:17] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:10:26] 📑 Switched to 📋 Students tab
+[2025-09-20 23:10:48] 🛑 Program closed
+[2025-09-20 23:10:51] 🚀 Program started
+[2025-09-20 23:10:51] 📑 Switched to 📋 Students tab
+[2025-09-20 23:10:54] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:10:58] 📑 Switched to 📋 Students tab
+[2025-09-20 23:11:00] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:11:05] ✅ Data saved
+[2025-09-20 23:11:05] ✏️ Edited student 100004
+[2025-09-20 23:11:09] 🛑 Program closed
+[2025-09-20 23:12:49] 🚀 Program started
+[2025-09-20 23:12:49] 📑 Switched to 📋 Students tab
+[2025-09-20 23:12:51] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:12:54] 🔄 Collecting faces for training...
+[2025-09-20 23:12:55] ⚠️ No detectable face in 100004_1.jpg
+[2025-09-20 23:12:55] ✅ Model trained with 6 samples and 5 students
+[2025-09-20 23:12:58] 📑 Switched to 📋 Students tab
+[2025-09-20 23:13:00] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:13:21] 📑 Switched to 📋 Students tab
+[2025-09-20 23:13:23] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:13:28] 📑 Switched to 📋 Students tab
+[2025-09-20 23:13:30] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:13:32] 📑 Switched to 📋 Students tab
+[2025-09-20 23:13:33] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:14:36] 🛑 Program closed
+[2025-09-20 23:25:50] 🚀 Program started
+[2025-09-20 23:26:10] 🛑 Program closed
+[2025-09-20 23:27:35] 🚀 Program started
+[2025-09-20 23:27:41] 🛑 Program closed
+[2025-09-20 23:27:55] ❌ ERROR: Traceback (most recent call last):
+  File "D:\My_Folder\Latihan\Python\RPL\encode_data.py", line 7, in <module>
+    start_ui()
+  File "D:\My_Folder\Latihan\Python\RPL\utils\ui.py", line 146, in start_ui
+    "add": tk.Button(btn_frame, text="➕ Add (Select Photos)", command=add_student,
+NameError: name 'add_student' is not defined
+
+[2025-09-20 23:29:31] ❌ ERROR: Traceback (most recent call last):
+  File "D:\My_Folder\Latihan\Python\RPL\encode_data.py", line 7, in <module>
+    start_ui()
+  File "D:\My_Folder\Latihan\Python\RPL\utils\ui.py", line 145, in start_ui
+    "add": tk.Button(btn_frame, text="➕ Add (Select Photos)", command=add_student,
+NameError: name 'add_student' is not defined
+
+[2025-09-20 23:47:11] 🚀 Program started
+[2025-09-20 23:47:11] 📑 Switched to 📋 Students tab
+[2025-09-20 23:47:14] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:47:20] 📑 Switched to 📋 Students tab
+[2025-09-20 23:47:21] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:47:24] 🔍 Found 10 result(s) in history for 'elon'
+[2025-09-20 23:47:29] 📑 Switched to 📋 Students tab
+[2025-09-20 23:47:31] 🔍 Found 1 result(s) for 'elon'
+[2025-09-20 23:47:32] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:47:36] 🔍 Found 10 result(s) in history for 'elon'
+[2025-09-20 23:47:38] 📑 Switched to 📋 Students tab
+[2025-09-20 23:48:01] 🛑 Program closed
+[2025-09-20 23:54:04] 🚀 Program started
+[2025-09-20 23:54:04] 📑 Switched to 📋 Students tab
+[2025-09-20 23:54:11] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:54:12] 📑 Switched to 📋 Students tab
+[2025-09-20 23:54:14] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:54:16] 📑 Switched to 📋 Students tab
+[2025-09-20 23:54:17] 🛑 Program closed
+[2025-09-20 23:55:46] 🚀 Program started
+[2025-09-20 23:55:46] 📑 Switched to 📋 Students tab
+[2025-09-20 23:55:51] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:55:55] 📑 Switched to 📋 Students tab
+[2025-09-20 23:56:16] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:56:17] 📑 Switched to 📋 Students tab
+[2025-09-20 23:56:19] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:56:20] 🛑 Program closed
+[2025-09-20 23:56:51] 🚀 Program started
+[2025-09-20 23:56:51] 📑 Switched to 📋 Students tab
+[2025-09-20 23:56:54] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:56:55] 📑 Switched to 📋 Students tab
+[2025-09-20 23:56:57] 🛑 Program closed
+[2025-09-20 23:57:16] 🚀 Program started
+[2025-09-20 23:57:16] 📑 Switched to 📋 Students tab
+[2025-09-20 23:57:18] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:57:18] 📑 Switched to 📋 Students tab
+[2025-09-20 23:57:20] 🛑 Program closed
+[2025-09-20 23:58:07] 🚀 Program started
+[2025-09-20 23:58:07] 📑 Switched to 📋 Students tab
+[2025-09-20 23:58:11] 🛑 Program closed
+[2025-09-20 23:58:40] 🚀 Program started
+[2025-09-20 23:58:40] 📑 Switched to 📋 Students tab
+[2025-09-20 23:58:42] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:58:44] 📑 Switched to 📋 Students tab
+[2025-09-20 23:58:46] 🛑 Program closed
+[2025-09-20 23:59:51] 🚀 Program started
+[2025-09-20 23:59:51] 📑 Switched to 📋 Students tab
+[2025-09-20 23:59:54] 📑 Switched to 🕒 Attendance History tab
+[2025-09-20 23:59:57] 📑 Switched to 📋 Students tab
+[2025-09-21 00:00:09] 🛑 Program closed
+[2025-09-21 00:01:10] 🚀 Program started
+[2025-09-21 00:01:10] 📑 Switched to 📋 Students tab
+[2025-09-21 00:01:16] ✅ Data saved
+[2025-09-21 00:01:16] ✏️ Edited student 100004
+[2025-09-21 00:01:23] 🛑 Program closed
+[2025-09-21 00:01:26] 🚀 Program started
+[2025-09-21 00:01:26] 📑 Switched to 📋 Students tab
+[2025-09-21 00:01:29] 🛑 Program closed
+[2025-09-21 00:07:24] 🚀 Program started
+[2025-09-21 00:07:24] 📑 Switched to 📋 Students tab
+[2025-09-21 00:07:26] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:07:27] 📑 Switched to 📋 Students tab
+[2025-09-21 00:07:29] 🛑 Program closed
+[2025-09-21 00:08:39] 🚀 Program started
+[2025-09-21 00:08:39] 📑 Switched to 📋 Students tab
+[2025-09-21 00:08:42] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:08:48] 📑 Switched to 📋 Students tab
+[2025-09-21 00:09:00] ✅ Data saved
+[2025-09-21 00:09:00] ✏️ Edited student 100004
+[2025-09-21 00:09:05] 🛑 Program closed
+[2025-09-21 00:10:11] 🚀 Program started
+[2025-09-21 00:10:11] 📑 Switched to 📋 Students tab
+[2025-09-21 00:10:19] 🔍 Found 1 result(s) for 'elon'
+[2025-09-21 00:10:20] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:10:21] 🔍 Found 10 result(s) in history for 'elon'
+[2025-09-21 00:10:26] 🔍 Found 9 result(s) in history for 'emly'
+[2025-09-21 00:10:29] 🔄 Collecting faces for training...
+[2025-09-21 00:10:30] ⚠️ No face detected in 100004_1.jpg
+[2025-09-21 00:10:30] ✅ Model trained with 6 samples and 5 students
+[2025-09-21 00:10:33] 📑 Switched to 📋 Students tab
+[2025-09-21 00:10:35] 🔄 Collecting faces for training...
+[2025-09-21 00:10:35] ⚠️ No face detected in 100004_1.jpg
+[2025-09-21 00:10:35] ✅ Model trained with 6 samples and 5 students
+[2025-09-21 00:10:43] 🛑 Program closed
+[2025-09-21 00:14:01] 🚀 Program started
+[2025-09-21 00:14:01] 📑 Switched to 📋 Students tab
+[2025-09-21 00:14:08] 🔍 Found 1 result(s) for 'elon'
+[2025-09-21 00:14:10] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:14:12] 🔍 Found 10 result(s) for 'elon'
+[2025-09-21 00:14:19] 📑 Switched to 📋 Students tab
+[2025-09-21 00:14:23] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:15:16] 🛑 Program closed
+[2025-09-21 00:16:37] 🚀 Program started
+[2025-09-21 00:16:37] 📑 Switched to 📋 Students tab
+[2025-09-21 00:16:40] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:16:47] 📑 Switched to 📋 Students tab
+[2025-09-21 00:16:51] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:17:04] 🔍 Found 10 result(s) for 'elon'
+[2025-09-21 00:17:09] 📑 Switched to 📋 Students tab
+[2025-09-21 00:17:11] 🔍 Found 1 result(s) for 'elon'
+[2025-09-21 00:18:06] 🛑 Program closed
+[2025-09-21 00:18:10] 🚀 Program started
+[2025-09-21 00:18:10] 📑 Switched to 📋 Students tab
+[2025-09-21 00:18:14] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:18:19] 📑 Switched to 📋 Students tab
+[2025-09-21 00:19:21] 🛑 Program closed
+[2025-09-21 00:19:25] 🚀 Program started
+[2025-09-21 00:19:25] 📑 Switched to 📋 Students tab
+[2025-09-21 00:19:27] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:19:29] 📑 Switched to 📋 Students tab
+[2025-09-21 00:19:31] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:19:36] 📑 Switched to 📋 Students tab
+[2025-09-21 00:19:44] ✅ Data saved
+[2025-09-21 00:19:44] ✏️ Edited student 100003
+[2025-09-21 00:20:00] ✅ Data saved
+[2025-09-21 00:20:00] ✏️ Edited student 100003
+[2025-09-21 00:20:02] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:20:03] 📑 Switched to 📋 Students tab
+[2025-09-21 00:20:13] 🛑 Program closed
+[2025-09-21 00:20:16] 🚀 Program started
+[2025-09-21 00:20:16] 📑 Switched to 📋 Students tab
+[2025-09-21 00:20:22] ✅ Data saved
+[2025-09-21 00:20:22] ✏️ Edited student 100003
+[2025-09-21 00:20:26] 🛑 Program closed
+[2025-09-21 00:21:16] 🚀 Program started
+[2025-09-21 00:21:16] 📑 Switched to 📋 Students tab
+[2025-09-21 00:21:21] ✅ Data saved
+[2025-09-21 00:21:21] ✏️ Edited student 100003
+[2025-09-21 00:21:27] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:21:28] 📑 Switched to 📋 Students tab
+[2025-09-21 00:21:32] 🛑 Program closed
+[2025-09-21 00:21:35] 🚀 Program started
+[2025-09-21 00:21:35] 📑 Switched to 📋 Students tab
+[2025-09-21 00:21:42] 🛑 Program closed
+[2025-09-21 00:23:07] 🚀 Program started
+[2025-09-21 00:23:07] 📑 Switched to 📋 Students tab
+[2025-09-21 00:23:11] 🔄 Collecting faces for training...
+[2025-09-21 00:23:12] ⚠️ No face detected in 100004_1.jpg
+[2025-09-21 00:23:12] ✅ Model trained with 6 samples and 5 students
+[2025-09-21 00:23:18] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:23:23] 📑 Switched to 📋 Students tab
+[2025-09-21 00:23:33] 🛑 Program closed
+[2025-09-21 00:31:18] 🚀 Program started
+[2025-09-21 00:31:18] 📑 Switched to 📋 Students tab
+[2025-09-21 00:31:25] ✅ Data saved
+[2025-09-21 00:31:25] 🗑️ Deleted student 100004
+[2025-09-21 00:31:37] ✅ Saved face: Images\100004\100004_1.jpg
+[2025-09-21 00:31:37] ✅ Saved face: Images\100004\100004_2.jpg
+[2025-09-21 00:31:37] ⚠️ No face in D:/My_Folder/Photo/Screenshot 2025-09-19 223417.png
+[2025-09-21 00:31:37] ✅ Data saved
+[2025-09-21 00:31:37] 🎉 Added 2 images to student ID=100004
+[2025-09-21 00:32:00] ✅ Saved face: Images\100005\100005_1.jpg
+[2025-09-21 00:32:01] ✅ Saved face: Images\100005\100005_2.jpg
+[2025-09-21 00:32:01] ⚠️ No face in D:/My_Folder/Photo/Screenshot 2025-09-19 223417.png
+[2025-09-21 00:32:01] ✅ Data saved
+[2025-09-21 00:32:01] 🎉 Added 2 images to student ID=100005
+[2025-09-21 00:32:19] ✅ Data saved
+[2025-09-21 00:32:19] 🗑️ Deleted student 100005
+[2025-09-21 00:32:32] 🔄 Collecting faces for training...
+[2025-09-21 00:32:32] ⚠️ No face detected in 100004_1.jpg
+[2025-09-21 00:32:32] ✅ Model trained with 6 samples and 5 students
+[2025-09-21 00:33:28] 🔍 Found 1 result(s) for 'elon'
+[2025-09-21 00:33:29] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:33:32] 🔍 Found 10 result(s) for 'elon'
+[2025-09-21 00:33:40] 📑 Switched to 📋 Students tab
+[2025-09-21 00:33:43] 🛑 Program closed
+[2025-09-21 00:39:12] 🚀 Program started
+[2025-09-21 00:39:12] 📑 Switched to 📋 Students tab
+[2025-09-21 00:39:15] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:39:18] 📑 Switched to 📋 Students tab
+[2025-09-21 00:39:27] ✅ Saved face: Images\100004\100004_3.jpg
+[2025-09-21 00:39:27] ✅ Saved face: Images\100004\100004_4.jpg
+[2025-09-21 00:39:27] ⚠️ No face in D:/My_Folder/Photo/Screenshot 2025-09-19 223417.png
+[2025-09-21 00:39:27] ✅ Data saved
+[2025-09-21 00:39:27] 🎉 Added 2 images to student ID=100004
+[2025-09-21 00:40:08] ⚠️ No face in D:/My_Folder/Photo/Marvis.jpg
+[2025-09-21 00:40:21] ✅ Saved face: Images\100004\100004_5.jpg
+[2025-09-21 00:40:21] ✅ Data saved
+[2025-09-21 00:40:21] 🎉 Added 1 images to student ID=100004
+[2025-09-21 00:41:02] ✅ Data saved
+[2025-09-21 00:41:02] 🗑️ Deleted student 100004
+[2025-09-21 00:43:56] 🛑 Program closed
+[2025-09-21 00:44:01] 🚀 Program started
+[2025-09-21 00:44:01] 📑 Switched to 📋 Students tab
+[2025-09-21 00:44:24] ✅ Saved face: Images\100003\100003_2.jpg
+[2025-09-21 00:44:24] ✅ Saved face: Images\100003\100003_3.jpg
+[2025-09-21 00:44:24] ⚠️ No face in D:/My_Folder/Photo/Screenshot 2025-09-19 223417.png
+[2025-09-21 00:44:24] ✅ Data saved
+[2025-09-21 00:44:24] 🎉 Added 2 images to student ID=100003
+[2025-09-21 00:45:29] ✅ Data saved
+[2025-09-21 00:45:29] 🗑️ Deleted student 100003
+[2025-09-21 00:46:54] 🛑 Program closed
+[2025-09-21 00:46:58] 🚀 Program started
+[2025-09-21 00:46:58] 📑 Switched to 📋 Students tab
+[2025-09-21 00:47:33] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:47:34] 📑 Switched to 📋 Students tab
+[2025-09-21 00:47:43] 🛑 Program closed
+[2025-09-21 00:48:12] 🚀 Program started
+[2025-09-21 00:48:12] 📑 Switched to 📋 Students tab
+[2025-09-21 00:50:17] 🛑 Program closed
+[2025-09-21 00:50:22] 🚀 Program started
+[2025-09-21 00:50:22] 📑 Switched to 📋 Students tab
+[2025-09-21 00:50:51] ✅ Saved face: Images\100003\100003_1.jpg
+[2025-09-21 00:50:51] ✅ Saved face: Images\100003\100003_2.jpg
+[2025-09-21 00:50:51] ⚠️ No face in D:/My_Folder/Photo/Screenshot 2025-09-19 223417.png
+[2025-09-21 00:50:51] ✅ Data saved
+[2025-09-21 00:50:51] 🎉 Added 2 images to student ID=100003
+[2025-09-21 00:51:22] ✅ Saved face: Images\100003\100003_3.jpg
+[2025-09-21 00:51:22] ✅ Saved face: Images\100003\100003_4.jpg
+[2025-09-21 00:51:22] ⚠️ No face in D:/My_Folder/Photo/Screenshot 2025-09-19 223417.png
+[2025-09-21 00:51:22] ✅ Data saved
+[2025-09-21 00:51:22] 🎉 Added 2 images to student ID=100003
+[2025-09-21 00:53:31] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 00:53:39] 🛑 Program closed
+[2025-09-21 00:57:19] 🚀 Program started
+[2025-09-21 00:57:19] 📑 Switched to 📋 Students tab
+[2025-09-21 00:57:28] 🔄 Collecting faces for training...
+[2025-09-21 00:57:29] ⚠️ No face detected in 100003_1.jpg
+[2025-09-21 00:57:29] ⚠️ No face detected in 100003_3.jpg
+[2025-09-21 00:57:29] ✅ Model trained with 6 samples and 4 students
+[2025-09-21 00:57:57] 🛑 Program closed
+[2025-09-21 00:58:07] 🚀 Program started
+[2025-09-21 00:58:07] 📑 Switched to 📋 Students tab
+[2025-09-21 00:58:12] 🛑 Program closed
+[2025-09-21 00:58:15] 🚀 Program started
+[2025-09-21 00:58:15] 📑 Switched to 📋 Students tab
+[2025-09-21 00:58:52] 🛑 Program closed
+[2025-09-21 11:12:19] 🚀 Program started
+[2025-09-21 11:12:19] 📑 Switched to 📋 Students tab
+[2025-09-21 11:12:56] ✅ Data saved
+[2025-09-21 11:12:56] ✏️ Edited student 100002
+[2025-09-21 11:12:57] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 11:12:59] 🔄 Collecting faces for training...
+[2025-09-21 11:13:00] ⚠️ No face detected in 100003_1.jpg
+[2025-09-21 11:13:00] ⚠️ No face detected in 100003_3.jpg
+[2025-09-21 11:13:00] ✅ Model trained with 6 samples and 4 students
+[2025-09-21 11:13:07] 🔍 Found 2 result(s) for 'sultan'
+[2025-09-21 11:13:15] 📑 Switched to 📋 Students tab
+[2025-09-21 11:13:40] 🛑 Program closed
+[2025-09-21 11:25:12] 🚀 Program started
+[2025-09-21 11:25:12] 📑 Switched to 📋 Students tab
+[2025-09-21 11:25:15] 🛑 Program closed
+[2025-09-21 11:25:27] 🚀 Program started
+[2025-09-21 11:25:28] 📑 Switched to 📋 Students tab
+[2025-09-21 11:25:35] ✅ Data saved
+[2025-09-21 11:25:35] ✏️ Edited student 100003
+[2025-09-21 11:25:44] 🛑 Program closed
+[2025-09-21 11:25:46] 🚀 Program started
+[2025-09-21 11:25:46] 📑 Switched to 📋 Students tab
+[2025-09-21 11:26:20] 🛑 Program closed
+[2025-09-21 11:41:49] 🚀 Program started
+[2025-09-21 11:41:49] 📑 Switched to 📋 Students tab
+[2025-09-21 11:41:53] 🛑 Program closed
+[2025-09-21 11:42:19] 🚀 Program started
+[2025-09-21 11:42:19] 📑 Switched to 📋 Students tab
+[2025-09-21 11:43:50] 🛑 Program closed
+[2025-09-21 11:51:44] 🚀 Program started
+[2025-09-21 11:51:44] 📑 Switched to 📋 Students tab
+[2025-09-21 11:51:46] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 11:51:56] 🛑 Program closed
+[2025-09-21 11:52:24] 🚀 Program started
+[2025-09-21 11:52:24] 📑 Switched to 📋 Students tab
+[2025-09-21 11:52:26] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 11:52:56] 📑 Switched to 📋 Students tab
+[2025-09-21 11:53:06] 🛑 Program closed
+[2025-09-21 12:06:36] 🚀 Program started
+[2025-09-21 12:06:36] 📑 Switched to 📋 Students tab
+[2025-09-21 12:06:38] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 12:06:39] 📑 Switched to 📋 Students tab
+[2025-09-21 12:06:42] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 12:08:16] 🛑 Program closed
+[2025-09-21 12:16:34] ❌ ERROR: Traceback (most recent call last):
+  File "D:\My_Folder\Latihan\Python\RPL\encode_data.py", line 8, in <module>
+    start_ui()
+TypeError: start_ui() missing 1 required positional argument: 'api_key'
+
+[2025-09-21 12:18:42] ❌ ERROR: Traceback (most recent call last):
+  File "D:\My_Folder\Latihan\Python\RPL\encode_data.py", line 8, in <module>
+    start_ui()
+TypeError: start_ui() missing 1 required positional argument: 'api_key'
+
+[2025-09-21 12:19:07] 🚀 Program started
+[2025-09-21 12:19:08] 🔑 API Key received: 68cf8960-d750-8321-9836-66861b5c6c49
+[2025-09-21 12:19:08] 📑 Switched to 📋 Students tab
+[2025-09-21 12:19:17] 🛑 Program closed
+[2025-09-21 12:26:26] 🚀 Program started
+[2025-09-21 12:26:26] 🔑 API Key received: 68cf8960-d750-8321-9836-66861b5c6c49
+[2025-09-21 12:26:26] 📑 Switched to 📋 Students tab
+[2025-09-21 12:26:29] 🛑 Program closed
+[2025-09-21 12:27:45] 🚀 Program started
+[2025-09-21 12:27:45] 🔑 API Key received: 68cf8960-d750-8321-9836-66861b5c6c49
+[2025-09-21 12:27:45] 📑 Switched to 📋 Students tab
+[2025-09-21 12:27:50] 🛑 Program closed
+[2025-09-21 12:27:52] 🚀 Program started
+[2025-09-21 12:27:52] 🔑 API Key received: 68cf8960-d750-8321-9836-66861b5c6c49
+[2025-09-21 12:27:52] 📑 Switched to 📋 Students tab
+[2025-09-21 12:27:56] 🛑 Program closed
+[2025-09-21 12:30:22] 🚀 Program started
+[2025-09-21 12:30:22] 🔑 API Key received: 68cf8960-d750-8321-9836-66861b5c6c49
+[2025-09-21 12:30:22] 📑 Switched to 📋 Students tab
+[2025-09-21 12:30:24] 🛑 Program closed
+[2025-09-21 12:30:34] ❌ ERROR: Traceback (most recent call last):
+  File "D:\My_Folder\Latihan\Python\RPL\encode_data.py", line 7, in <module>
+    start_ui()
+  File "D:\My_Folder\Latihan\Python\RPL\utils\ui.py", line 166, in start_ui
+    api_key = get_api_key()
+  File "D:\My_Folder\Latihan\Python\RPL\utils\ui.py", line 143, in get_api_key
+    api_key = load_api_key()
+  File "D:\My_Folder\Latihan\Python\RPL\utils\data_manager.py", line 19, in load_api_key
+    data = json.load(f)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+[2025-09-21 12:30:39] ❌ ERROR: Traceback (most recent call last):
+  File "D:\My_Folder\Latihan\Python\RPL\encode_data.py", line 7, in <module>
+    start_ui()
+  File "D:\My_Folder\Latihan\Python\RPL\utils\ui.py", line 166, in start_ui
+    api_key = get_api_key()
+  File "D:\My_Folder\Latihan\Python\RPL\utils\ui.py", line 143, in get_api_key
+    api_key = load_api_key()
+  File "D:\My_Folder\Latihan\Python\RPL\utils\data_manager.py", line 19, in load_api_key
+    data = json.load(f)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+[2025-09-21 12:33:12] ❌ ERROR: Traceback (most recent call last):
+  File "D:\My_Folder\Latihan\Python\RPL\encode_data.py", line 7, in <module>
+    start_ui()
+  File "D:\My_Folder\Latihan\Python\RPL\utils\ui.py", line 168, in start_ui
+    api_key = get_api_key()
+  File "D:\My_Folder\Latihan\Python\RPL\utils\ui.py", line 143, in get_api_key
+    api_key = load_api_key()
+  File "D:\My_Folder\Latihan\Python\RPL\utils\data_manager.py", line 19, in load_api_key
+    data = json.load(f)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+[2025-09-21 12:35:53] 🚀 Program started
+[2025-09-21 12:35:53] 🔑 API Key received: 68cf8960-d750-8321-9836-66861b5c6c49
+[2025-09-21 12:35:53] 📑 Switched to 📋 Students tab
+[2025-09-21 12:35:56] 🛑 Program closed
+[2025-09-21 12:35:58] 🚀 Program started
+[2025-09-21 12:35:58] 🔑 API Key received: 68cf8960-d750-8321-9836-66861b5c6c49
+[2025-09-21 12:35:58] 📑 Switched to 📋 Students tab
+[2025-09-21 12:36:02] 🛑 Program closed
+[2025-09-21 12:43:16] 🚀 Program started
+[2025-09-21 12:43:16] 🔑 API Key received: Hello World
+[2025-09-21 12:43:16] 📑 Switched to 📋 Students tab
+[2025-09-21 12:43:26] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 12:43:28] 📑 Switched to 📋 Students tab
+[2025-09-21 12:44:13] ✅ Data saved
+[2025-09-21 12:44:17] 🛑 Program closed
+[2025-09-21 12:54:28] 🚀 Program started
+[2025-09-21 12:54:29] 🔑 API Key received: Hello World
+[2025-09-21 12:54:29] 📑 Switched to 📋 Students tab
+[2025-09-21 12:54:35] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 12:54:36] 📑 Switched to 📋 Students tab
+[2025-09-21 12:54:42] ✅ Data saved
+[2025-09-21 12:54:42] ✏️ Edited student 100002
+[2025-09-21 12:55:19] ✅ Data saved
+[2025-09-21 12:55:19] ✏️ Edited student 100002
+[2025-09-21 12:56:06] 🛑 Program closed
+[2025-09-21 12:56:10] 🚀 Program started
+[2025-09-21 12:56:10] 🔑 API Key received: Hello World
+[2025-09-21 12:56:10] 📑 Switched to 📋 Students tab
+[2025-09-21 12:56:12] 🛑 Program closed
+[2025-09-21 13:01:36] 🚀 Program started
+[2025-09-21 13:01:36] 🔑 API Key received: Hello World
+[2025-09-21 13:01:36] 📑 Switched to 📋 Students tab
+[2025-09-21 13:01:42] ✅ Data saved
+[2025-09-21 13:01:42] ✏️ Edited student 100002
+[2025-09-21 13:03:18] 🛑 Program closed
+[2025-09-21 13:03:21] 🚀 Program started
+[2025-09-21 13:03:21] 🔑 API Key received: Hello World
+[2025-09-21 13:03:21] 📑 Switched to 📋 Students tab
+[2025-09-21 13:03:26] ✅ Data saved
+[2025-09-21 13:03:26] ✏️ Edited student 100002
+[2025-09-21 13:04:56] 🛑 Program closed
+[2025-09-21 13:04:58] 🚀 Program started
+[2025-09-21 13:04:58] 🔑 API Key received: Hello World
+[2025-09-21 13:04:58] 📑 Switched to 📋 Students tab
+[2025-09-21 13:05:05] ✅ Data saved
+[2025-09-21 13:05:05] ✏️ Edited student 100002
+[2025-09-21 13:05:08] 🛑 Program closed
+[2025-09-21 13:08:03] 🚀 Program started
+[2025-09-21 13:08:03] 🔑 API Key received: Hello World
+[2025-09-21 13:08:03] 📑 Switched to 📋 Students tab
+[2025-09-21 13:08:12] ✅ Data saved
+[2025-09-21 13:08:12] ✏️ Edited student 100002
+[2025-09-21 13:08:23] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 13:08:25] 📑 Switched to 📋 Students tab
+[2025-09-21 13:08:31] ✅ Data saved
+[2025-09-21 13:08:31] ✏️ Edited student 100003
+[2025-09-21 13:08:34] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 13:08:36] 📑 Switched to 📋 Students tab
+[2025-09-21 13:08:44] 🛑 Program closed
+[2025-09-21 13:11:56] 🚀 Program started
+[2025-09-21 13:11:56] 🔑 API Key received: Hello World
+[2025-09-21 13:11:56] 📑 Switched to 📋 Students tab
+[2025-09-21 13:11:58] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 13:11:59] 📑 Switched to 📋 Students tab
+[2025-09-21 13:12:11] 🛑 Program closed
+[2025-09-21 13:13:23] 🚀 Program started
+[2025-09-21 13:13:23] 🔑 API Key received: Hello World
+[2025-09-21 13:13:23] 📑 Switched to 📋 Students tab
+[2025-09-21 13:13:31] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 13:13:38] 📑 Switched to 📋 Students tab
+[2025-09-21 13:13:40] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 13:13:41] 📑 Switched to 📋 Students tab
+[2025-09-21 13:13:46] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 13:14:05] 📑 Switched to 📋 Students tab
+[2025-09-21 13:14:09] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 13:14:19] 🔍 Found 2 result(s) for 'sultan'
+[2025-09-21 13:14:22] 🛑 Program closed
+[2025-09-21 13:18:41] 🚀 Program started
+[2025-09-21 13:18:41] 🔑 API Key received: Hello World
+[2025-09-21 13:18:41] 📑 Switched to 📋 Students tab
+[2025-09-21 13:18:43] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 13:18:52] 🔄 Collecting faces for training...
+[2025-09-21 13:18:53] ⚠️ No face detected in 100003_1.jpg
+[2025-09-21 13:18:53] ⚠️ No face detected in 100003_3.jpg
+[2025-09-21 13:18:53] ✅ Model trained with 6 samples and 4 students
+[2025-09-21 13:18:57] 🛑 Program closed
+[2025-09-21 13:22:55] 🚀 Program started
+[2025-09-21 13:22:55] 🔑 API Key received: Hello World
+[2025-09-21 13:22:55] 📑 Switched to 📋 Students tab
+[2025-09-21 13:22:56] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 13:23:07] 📑 Switched to 📋 Students tab
+[2025-09-21 13:23:10] 🛑 Program closed
+[2025-09-21 13:25:11] ❌ ERROR: Traceback (most recent call last):
+  File "D:\My_Folder\Latihan\Python\RPL\encode_data.py", line 7, in <module>
+    start_ui()
+  File "D:\My_Folder\Latihan\Python\RPL\utils\ui.py", line 217, in start_ui
+    btn_frame,
+UnboundLocalError: local variable 'btn_frame' referenced before assignment
+
+[2025-09-21 13:25:51] 🚀 Program started
+[2025-09-21 13:25:51] 🔑 API Key received: Hello World
+[2025-09-21 13:25:51] 📑 Switched to 📋 Students tab
+[2025-09-21 13:26:10] 🛑 Program closed
+[2025-09-21 13:26:58] 🚀 Program started
+[2025-09-21 13:26:58] 🔑 API Key received: Hello World
+[2025-09-21 13:26:58] 📑 Switched to 📋 Students tab
+[2025-09-21 13:27:02] 🛑 Program closed
+[2025-09-21 13:27:26] 🚀 Program started
+[2025-09-21 13:27:26] 🔑 API Key received: Hello World
+[2025-09-21 13:27:26] 📑 Switched to 📋 Students tab
+[2025-09-21 13:27:33] 🛑 Program closed
+[2025-09-21 13:27:56] 🚀 Program started
+[2025-09-21 13:27:56] 🔑 API Key received: Hello World
+[2025-09-21 13:27:56] 📑 Switched to 📋 Students tab
+[2025-09-21 13:28:39] 🛑 Program closed
+[2025-09-21 13:28:42] 🚀 Program started
+[2025-09-21 13:28:42] 🔑 API Key received: Hello World
+[2025-09-21 13:28:42] 📑 Switched to 📋 Students tab
+[2025-09-21 13:28:49] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 13:28:57] 📑 Switched to 📋 Students tab
+[2025-09-21 13:29:57] 🛑 Program closed
+[2025-09-21 13:30:14] 🚀 Program started
+[2025-09-21 13:30:14] 🔑 API Key received: Hello World
+[2025-09-21 13:30:14] 📑 Switched to 📋 Students tab
+[2025-09-21 13:30:17] 🛑 Program closed
+[2025-09-21 13:30:25] 🚀 Program started
+[2025-09-21 13:30:25] 🔑 API Key received: Hello World
+[2025-09-21 13:30:25] 📑 Switched to 📋 Students tab
+[2025-09-21 13:30:35] 🛑 Program closed
+[2025-09-21 13:30:43] 🚀 Program started
+[2025-09-21 13:30:43] 🔑 API Key received: Hello World
+[2025-09-21 13:30:43] 📑 Switched to 📋 Students tab
+[2025-09-21 13:30:47] 🛑 Program closed
+[2025-09-21 13:30:55] 🚀 Program started
+[2025-09-21 13:30:56] 🔑 API Key received: Hello World
+[2025-09-21 13:30:56] 📑 Switched to 📋 Students tab
+[2025-09-21 13:30:59] 🛑 Program closed
+[2025-09-21 13:31:12] 🚀 Program started
+[2025-09-21 13:31:12] 🔑 API Key received: Hello World
+[2025-09-21 13:31:12] 📑 Switched to 📋 Students tab
+[2025-09-21 13:31:17] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 13:31:19] 📑 Switched to 📋 Students tab
+[2025-09-21 13:32:41] 🛑 Program closed
+[2025-09-21 13:32:43] 🚀 Program started
+[2025-09-21 13:32:43] 🔑 API Key received: Hello World
+[2025-09-21 13:32:43] 📑 Switched to 📋 Students tab
+[2025-09-21 13:32:45] 🛑 Program closed
+[2025-09-21 13:32:53] 🚀 Program started
+[2025-09-21 13:32:53] 🔑 API Key received: Hello World
+[2025-09-21 13:32:53] 📑 Switched to 📋 Students tab
+[2025-09-21 13:32:57] 🛑 Program closed
+[2025-09-21 13:34:00] 🚀 Program started
+[2025-09-21 13:34:00] 🔑 API Key received: Hello World
+[2025-09-21 13:34:00] 📑 Switched to 📋 Students tab
+[2025-09-21 13:34:03] 🛑 Program closed
+[2025-09-21 13:34:09] 🚀 Program started
+[2025-09-21 13:34:09] 🔑 API Key received: Hello World
+[2025-09-21 13:34:09] 📑 Switched to 📋 Students tab
+[2025-09-21 13:34:16] 🛑 Program closed
+[2025-09-21 13:34:23] 🚀 Program started
+[2025-09-21 13:34:23] 🔑 API Key received: Hello World
+[2025-09-21 13:34:23] 📑 Switched to 📋 Students tab
+[2025-09-21 13:34:26] 🛑 Program closed
+[2025-09-21 13:37:45] 🚀 Program started
+[2025-09-21 13:37:45] 🔑 API Key received: Hello World
+[2025-09-21 13:37:45] 📑 Switched to 📋 Students tab
+[2025-09-21 13:37:50] 📑 Switched to 🕒 Attendance History tab
+[2025-09-21 13:37:53] 📑 Switched to 📋 Students tab
+[2025-09-21 13:38:30] 🛑 Program closed
+[2025-09-21 19:33:09] ✅ Data saved
+[2025-09-21 20:04:57] ✅ Attendance saved
+[2025-09-21 20:06:45] ✅ Attendance saved
+[2025-09-21 20:09:17] ✅ Attendance saved
+[2025-09-21 20:10:53] ✅ Attendance saved
+[2025-09-21 20:11:55] ✅ Attendance saved
+[2025-09-21 20:12:43] ✅ Attendance saved
+[2025-09-21 20:21:19] ✅ Attendance saved
+[2025-09-22 13:24:26] 🚀 Program started
+[2025-09-22 13:24:27] 🔑 API Key received: Hello World
+[2025-09-22 13:24:27] 📑 Switched to 📋 Students tab
+[2025-09-22 13:24:32] 📑 Switched to 🕒 Attendance History tab
+[2025-09-22 13:24:42] 📑 Switched to 📋 Students tab
+[2025-09-22 13:24:44] 🔄 Collecting faces for training...
+[2025-09-22 13:24:45] ⚠️ No face detected in 100003_1.jpg
+[2025-09-22 13:24:45] ⚠️ No face detected in 100003_3.jpg
+[2025-09-22 13:24:45] ✅ Model trained with 6 samples and 4 students
+[2025-09-22 13:26:07] 🛑 Program closed
