@@ -1,33 +1,22 @@
-import pandas as pd
-import os, json
-from datetime import datetime
+import pandas as pd, os
+from datetime import datetime, timedelta
 
 try:
-    from config import CSV_PATH, ATTENDANCE_PATH, CONFIG_PATH
+    from config import CSV_PATH, ATTENDANCE_PATH
     from logger import log_message
 except ImportError:
-    from utils.config import CSV_PATH, ATTENDANCE_PATH, CONFIG_PATH
+    from utils.config import CSV_PATH, ATTENDANCE_PATH
     from utils.logger import log_message
 
 
-def save_api_key(api_key: str):
-    with open(CONFIG_PATH, "w") as f:
-        json.dump({"api_key": api_key}, f)
-
-def load_api_key():
-    if os.path.exists(CONFIG_PATH):
-        try:
-            with open(CONFIG_PATH, "r") as f:
-                data = json.load(f)
-                return data.get("api_key")
-        except (json.JSONDecodeError, ValueError):
-            return None
-    return None
-
-# ========================== Database ==========================
+def get_next_id(df):
+    return 100000 if df.empty else int(df["id"].max()) + 1
 
 
-def update_attendance_record(student: dict, start_time_str: str, end_time_str: str) -> bool:
+# ========================== API ==========================
+
+
+def update_attendance_record(student: dict, start_time_str: str, end_time_str: str, minutes=10) -> bool:
     START_TIME = datetime.strptime(start_time_str, "%H:%M").time()
     END_TIME = datetime.strptime(end_time_str, "%H:%M").time()
 
@@ -38,7 +27,7 @@ def update_attendance_record(student: dict, start_time_str: str, end_time_str: s
     if not (START_TIME <= now.time() <= END_TIME):
         return False, now
 
-    if last_time and last_time.date() == now.date():
+    if last_time and (now - last_time) < timedelta(minutes):
         return False, now
 
     student['total_kehadiran'] = str(int(student.get('total_kehadiran', 0)) + 1)
@@ -84,7 +73,7 @@ def save_students(students):
     df = pd.DataFrame(students.values())
     df.to_csv(CSV_PATH, index=False, encoding='utf-8')
 
-def add_student_row(df, entries, get_next_id):
+def add_student_row(df, entries):
     student_id = get_next_id(df)
     new_row = {
         "id": student_id,

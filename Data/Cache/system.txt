@@ -837,3 +837,81 @@ UnboundLocalError: local variable 'btn_frame' referenced before assignment
 [2025-09-23 00:40:00] ✅ Attendance saved for Timothy
 [2025-09-23 00:41:06] ✅ Attendance saved for Timothy
 [2025-09-23 00:41:06] 📸 Snapshot saved for Timothy: Data\Logs\100003-20250923004106.png
+[2025-09-23 08:56:42] 🚀 Program started
+[2025-09-23 08:56:42] 📑 Switched to 📋 Students tab
+[2025-09-23 08:56:48] 📑 Switched to 🕒 Attendance History tab
+[2025-09-23 08:57:01] 🔍 Found 16 result(s) for 'elon'
+[2025-09-23 08:57:11] 📑 Switched to 📋 Students tab
+[2025-09-23 08:57:20] ✅ Data saved
+[2025-09-23 08:57:20] ✏️ Edited student 100001
+[2025-09-23 08:57:43] 🛑 Program closed
+[2025-09-23 09:02:33] 🚀 Program started
+[2025-09-23 09:02:33] 📑 Switched to 📋 Students tab
+[2025-09-23 09:02:44] ✅ Saved face: Images\100003\100003_5.jpg
+[2025-09-23 09:02:45] ⚠️ No face in D:/My_Folder/Photo/Screenshot 2025-09-19 223417.png
+[2025-09-23 09:02:45] ✅ Data saved
+[2025-09-23 09:02:45] 🎉 Added 1 images to student ID=100003
+[2025-09-23 09:03:07] 🛑 Program closed
+[2025-09-23 09:08:36] 🚀 Program started
+[2025-09-23 09:08:36] 📑 Switched to 📋 Students tab
+[2025-09-23 09:08:39] 🛑 Program closed
+[2025-09-23 09:08:52] 🚀 Program started
+[2025-09-23 09:08:52] 📑 Switched to 📋 Students tab
+[2025-09-23 09:08:57] 🛑 Program closed
+[2025-09-23 09:09:17] 🚀 Program started
+[2025-09-23 09:09:17] 📑 Switched to 📋 Students tab
+[2025-09-23 09:09:27] 🛑 Program closed
+[2025-09-23 09:10:49] 🚀 Program started
+[2025-09-23 09:10:49] 📑 Switched to 📋 Students tab
+[2025-09-23 09:10:53] 🛑 Program closed
+[2025-09-23 09:11:11] 🚀 Program started
+[2025-09-23 09:11:11] 📑 Switched to 📋 Students tab
+[2025-09-23 09:11:23] 🛑 Program closed
+[2025-09-23 09:16:04] 🚀 Program started
+[2025-09-23 09:16:04] 📑 Switched to 📋 Students tab
+[2025-09-23 09:16:09] 📑 Switched to 🕒 Attendance History tab
+[2025-09-23 09:16:21] ❌ Image not found: Data\Logs\100003-20250923004000.png
+[2025-09-23 09:16:22] 📑 Switched to 📋 Students tab
+[2025-09-23 09:16:36] 📑 Switched to 🕒 Attendance History tab
+[2025-09-23 09:37:24] 🛑 Program closed
+[2025-09-23 09:38:11] 🚀 Program started
+[2025-09-23 09:38:11] 📑 Switched to 📋 Students tab
+[2025-09-23 09:38:14] 📑 Switched to 🕒 Attendance History tab
+[2025-09-23 09:38:21] 🛑 Program closed
+[2025-09-23 09:42:03] 🚀 Program started
+[2025-09-23 09:42:03] 📑 Switched to 📋 Students tab
+[2025-09-23 09:42:06] 📑 Switched to 🕒 Attendance History tab
+[2025-09-23 09:42:09] ❌ Image not found: Data\Logs\100001-20250921194109.png
+[2025-09-23 09:42:21] 📑 Switched to 📋 Students tab
+[2025-09-23 09:42:27] 🛑 Program closed
+[2025-09-23 09:43:18] 🚀 Program started
+[2025-09-23 09:43:18] 📑 Switched to 📋 Students tab
+[2025-09-23 09:43:20] 📑 Switched to 🕒 Attendance History tab
+[2025-09-23 09:43:22] 📑 Switched to 📋 Students tab
+[2025-09-23 09:43:24] 📑 Switched to 🕒 Attendance History tab
+[2025-09-23 09:43:26] 📑 Switched to 📋 Students tab
+[2025-09-23 09:44:49] 🛑 Program closed
+[2025-09-23 09:46:06] 🚀 Program started
+[2025-09-23 09:46:06] 📑 Switched to 📋 Students tab
+[2025-09-23 09:46:33] 🛑 Program closed
+[2025-09-23 09:50:12] 🚀 Program started
+[2025-09-23 09:50:12] 📑 Switched to 📋 Students tab
+[2025-09-23 09:50:20] 📑 Switched to 🕒 Attendance History tab
+[2025-09-23 09:50:24] 📑 Switched to 📋 Students tab
+[2025-09-23 09:50:26] 📑 Switched to 🕒 Attendance History tab
+[2025-09-23 09:50:29] 🔄 Collecting faces for training...
+[2025-09-23 09:50:29] ⚠️ No face detected in 100003_1.jpg
+[2025-09-23 09:50:29] ⚠️ No face detected in 100003_3.jpg
+[2025-09-23 09:50:29] ✅ Model trained with 7 samples and 4 students
+[2025-09-23 09:50:38] 🛑 Program closed
+[2025-09-23 18:22:43] ✅ Attendance saved for Timothy
+[2025-09-23 18:22:43] 📸 Snapshot saved for Timothy: Data\Logs\100003-20250923182243.png
+[2025-09-23 18:30:36] 🚀 Program started
+[2025-09-23 18:30:36] 📑 Switched to 📋 Students tab
+[2025-09-23 18:30:47] 📑 Switched to 🕒 Attendance History tab
+[2025-09-23 18:30:50] 📑 Switched to 📋 Students tab
+[2025-09-23 18:30:58] 🔄 Collecting faces for training...
+[2025-09-23 18:30:58] ⚠️ No face detected in 100003_1.jpg
+[2025-09-23 18:30:58] ⚠️ No face detected in 100003_3.jpg
+[2025-09-23 18:30:58] ✅ Model trained with 7 samples and 4 students
+[2025-09-23 18:31:28] 🛑 Program closed
