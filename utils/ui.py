@@ -6,14 +6,16 @@ from PIL import Image, ImageTk
 
 try:
     from config import LOG_PATH, IMAGES_DIR, LOGS_DIR
-    from data_manager import load_data, load_attendance, save_data, add_student_row
-    from face_utils import train_model, save_faces
+    from data_manager import load_data, load_attendance, save_data
+    from student_ops import add_student, edit_student, delete_student
+    from face_utils import train_model
     from logger import log_message
     from exceptions import set_log_box
 except ImportError:
     from utils.config import LOG_PATH, IMAGES_DIR, LOGS_DIR
-    from utils.data_manager import load_data, load_attendance, save_data, add_student_row
-    from utils.face_utils import train_model, save_faces
+    from utils.data_manager import load_data, load_attendance, save_data
+    from utils.student_ops import add_student, edit_student, delete_student
+    from utils.face_utils import train_model
     from utils.logger import log_message
     from utils.exceptions import set_log_box
 
@@ -146,9 +148,9 @@ class StudentManagerApp:
         btn_frame.place(x=20, y=380, width=400, height=150)
 
         specs = {
-            "add": ("➕ Add (Select Photos)", self.add_student, "#3498db"),
-            "edit": ("✏️ Edit", self.edit_student, "#f39c12"),
-            "delete": ("🗑 Delete", self.delete_student, "#e74c3c"),
+            "add": ("➕ Add (Select Photos)", lambda: add_student(self), "#3498db"),
+            "edit": ("✏️ Edit", lambda: edit_student(self), "#f39c12"),
+            "delete": ("🗑 Delete", lambda: delete_student(self), "#e74c3c"),
             "train": ("🧠 Train Model", lambda: train_model(self.log_box), "#27ae60"),
         }
 
@@ -310,83 +312,6 @@ class StudentManagerApp:
 
     def select_photos(self):
         filedialog.askopenfilenames(filetypes=[("Images", "*.jpg *.png *.jpeg")])
-
-    def add_student(self):
-        selected = self.tree.selection()
-        photo_paths = filedialog.askopenfilenames(filetypes=[("Images", "*.jpg *.png *.jpeg")])
-        if not photo_paths:
-            return
-
-        if selected:
-            student_id = self.tree.item(selected)["values"][0]
-        else:
-            self.student_df, student_id = add_student_row(self.student_df, self.entries)
-
-        folder = Path(IMAGES_DIR) / str(student_id)
-        count = save_faces(student_id, photo_paths, folder, self.log_box)
-
-        if count == 0:
-            messagebox.showerror("Error", "No valid faces found")
-            return
-
-        self.refresh_treeview(self.tree, self.student_df)
-        save_data(self.student_df)
-        log_message(f"🎉 Added {count} images to student ID={student_id}", self.log_box)
-
-    def edit_student(self):
-        selected = self.tree.selection()
-        if not selected:
-            messagebox.showwarning("Warning", "Select a student first!")
-            return
-
-        student_id = self.tree.item(selected)["values"][0]
-        idx = self.student_df.index[self.student_df["id"] == student_id][0]
-
-        type_map = {"Nomor Telepon": int, "Total Kehadiran": int, "Email": str, "Waktu Kehadiran": str}
-
-        for col, entry in self.entries.items():
-            val = entry.get().strip()
-            if not val:
-                continue
-            try:
-                if col in type_map:
-                    self.student_df.at[idx, col.lower().replace(" ", "_")] = type_map[col](val)
-                else:
-                    self.student_df.at[idx, col.lower().replace(" ", "_")] = val
-            except ValueError:
-                self.student_df.at[idx, col.lower().replace(" ", "_")] = val
-
-        self.refresh_treeview(self.tree, self.student_df)
-        save_data(self.student_df)
-        log_message(f"✏️ Edited student {student_id}", self.log_box)
-
-    def delete_student(self):
-        selected = self.tree.selection()
-        if not selected:
-            messagebox.showwarning("Warning", "Select a student first!")
-            return
-
-        student_id = self.tree.item(selected)["values"][0]
-        if not messagebox.askyesno("Confirm Delete", f"Delete student ID={student_id}?"):
-            return
-
-        self.student_df = self.student_df[self.student_df["id"] != student_id]
-
-        folder = Path(IMAGES_DIR) / str(student_id)
-        if folder.exists():
-            for f in folder.iterdir():
-                try:
-                    f.unlink()
-                except Exception as e:
-                    log_message(f"⚠ Failed to delete file {f}: {e}", self.log_box)
-            try:
-                folder.rmdir()
-            except Exception:
-                pass
-
-        self.refresh_treeview(self.tree, self.student_df)
-        save_data(self.student_df)
-        log_message(f"🗑️ Deleted student {student_id}", self.log_box)
 
     def on_close(self):
         log_message("🛑 Program closed", self.log_box)

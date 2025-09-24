@@ -1,4 +1,7 @@
+fastapi==0.117.1
 numpy==2.2.6
 opencv-contrib-python==4.10.0.84
 pandas==2.3.2
 pillow==11.3.0
+python-multipart==0.0.20
+uvicorn==0.37.0
