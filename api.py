@@ -1,7 +1,6 @@
 from fastapi import FastAPI, UploadFile, File, Query
 from fastapi.responses import JSONResponse
-import numpy as np
-import cv2
+import numpy as np, cv2, uvicorn
 
 from utils.face_utils import predict_student
 from utils.data_manager import update_attendance_record, load_students
@@ -99,3 +98,11 @@ async def get_students():
         return {"success": True, "count": len(students), "students": students}
     except Exception as e:
         return JSONResponse({"success": False, "error": str(e)}, status_code=500)
+
+if __name__ == "__main__":
+    uvicorn.run(
+        "api:app",
+        host="0.0.0.0",
+        port=8000,
+        reload=True
+    )
