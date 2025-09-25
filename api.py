@@ -1,5 +1,6 @@
 from fastapi import FastAPI, UploadFile, File, Query
 from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 import numpy as np, cv2, uvicorn
 
 from utils.face_utils import predict_student
@@ -11,27 +12,38 @@ app = FastAPI(
     version="1.0.0"
 )
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
+async def decode_uploaded_image(image: UploadFile):
+    contents = await image.read()
+    np_img = np.frombuffer(contents, np.uint8)
+    return cv2.imdecode(np_img, cv2.IMREAD_GRAYSCALE)
+
+
+def error_response(message: str, status: int = 500):
+    return JSONResponse({"success": False, "error": message}, status_code=status)
+
 
 @app.post("/predict")
 async def predict(image: UploadFile = File(...)):
     try:
-        contents = await image.read()
-        np_img = np.frombuffer(contents, np.uint8)
-        img = cv2.imdecode(np_img, cv2.IMREAD_GRAYSCALE)
-
+        img = await decode_uploaded_image(image)
         students = load_students()
         student, confidence = predict_student(img, students)
 
         if student:
-            return {
-                "success": True,
-                "student": student,
-                "confidence": confidence
-            }
+            return {"success": True, "student": student, "confidence": confidence}
         return JSONResponse({"success": False, "message": "No match found"}, status_code=404)
 
     except Exception as e:
-        return JSONResponse({"success": False, "error": str(e)}, status_code=500)
+        return error_response(str(e))
 
 
 @app.post("/attendance/update")
@@ -58,7 +70,7 @@ async def attendance_update(
         return {"success": False, "message": "Attendance not updated (outside time window or duplicate)"}
 
     except Exception as e:
-        return JSONResponse({"success": False, "error": str(e)}, status_code=500)
+        return error_response(str(e))
 
 
 @app.post("/recognize-and-update")
@@ -68,10 +80,7 @@ async def recognize_and_update(
     end_time: str = Query(..., description="Allowed end time (HH:MM)")
 ):
     try:
-        contents = await image.read()
-        np_img = np.frombuffer(contents, np.uint8)
-        img = cv2.imdecode(np_img, cv2.IMREAD_GRAYSCALE)
-
+        img = await decode_uploaded_image(image)
         students = load_students()
         student, confidence = predict_student(img, students)
 
@@ -89,20 +98,17 @@ async def recognize_and_update(
         }
 
     except Exception as e:
-        return JSONResponse({"success": False, "error": str(e)}, status_code=500)
-    
+        return error_response(str(e))
+
+
 @app.get("/students")
 async def get_students():
     try:
         students = load_students()
         return {"success": True, "count": len(students), "students": students}
     except Exception as e:
-        return JSONResponse({"success": False, "error": str(e)}, status_code=500)
+        return error_response(str(e))
+
 
 if __name__ == "__main__":
-    uvicorn.run(
-        "api:app",
-        host="0.0.0.0",
-        port=8000,
-        reload=True
-    )
+    uvicorn.run("api:app", host="0.0.0.0", port=8000, reload=True)

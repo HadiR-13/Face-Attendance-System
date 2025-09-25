@@ -216,5 +216,5 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Other
-images/
 Data/
+api_usage.txt

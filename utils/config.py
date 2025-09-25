@@ -1,9 +1,9 @@
 import os
 
-IMAGES_DIR = "Images"
 DATA_DIR = "Data"
+CACHE_DIR = os.path.join(DATA_DIR, ".cache")
 LOGS_DIR = os.path.join(DATA_DIR, "Logs")
-CACHE_DIR = os.path.join(DATA_DIR, "Cache")
+IMAGES_DIR = os.path.join(DATA_DIR, "Images")
 
 CSV_PATH = os.path.join(DATA_DIR, "students.csv")
 MODEL_PATH = os.path.join(DATA_DIR, "face_model.yml")
